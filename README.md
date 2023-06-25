@@ -13,9 +13,9 @@ Os usuários devem ser capazes de:
 
 ### 🔗 Links 
 
-- [Solução no Frontend Mentor]()
+- [Solução no Frontend Mentor](https://www.frontendmentor.io/solutions/single-price-component-with-grid-and-flex-PMZ7zlHICj)
 
-- [Deployment no Github Pages]()
+- [Deployment no Github Pages](https://fransuelton.github.io/single-price-grid-component/)
 
 ### ✨ Tecnologias Utilziadas
 
@@ -26,7 +26,7 @@ Os usuários devem ser capazes de:
 
 ### 📚 Aprendizado
 
-Com esse desafio, consegui praticar o Grid no CSS, algo que confesso não ter treinado muito até agora. No entanto, acho que fiz um bom trabalho. Claro que sempre fica algo pra refatorar, mas fiquei satisfeito com o resultado. Além disso, consegui firmar alguns conceitos de flexbox nesse desafio.
+Com esse desafio, consegui praticar o Grid no CSS, algo que confesso não ter treinado muito até agora. No entanto, acho que fiz um bom trabalho. Claro que sempre fica algo pra refatorar. Além disso, consegui firmar alguns conceitos de flexbox nesse desafio.
 
 ### 🚀 Desenvolvimento contínuo
 
