@@ -1,0 +1,36 @@
+@media (max-width: 576px) {
+    .card {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "price"
+            "why-us";
+        background-color: #fff;
+        border-radius: 1rem;
+        width: 30rem;
+    }
+
+    .introduction-area .title {
+        font-size: 2rem;
+    }
+
+    .subscription-area {
+        border-radius: 0;
+        padding-bottom: 2rem;
+    }
+
+    .subscription-area .btn {
+        width: 26rem;
+        height: 5rem;
+    }
+
+    .why-us-area {
+        gap: 1rem;
+        border-bottom-left-radius: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .why-us-area p {
+        padding-top: 2rem;
+    }
+}

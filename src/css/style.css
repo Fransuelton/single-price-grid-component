@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+/* 
+ */
+/* font size 16px */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Karla', sans-serif;
+    font-size: 1.6rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "price why-us";
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.introduction-area {
+    display: grid;
+    grid-area: header;
+    gap: 1rem;
+    margin: 4rem;
+}
+
+.introduction-area .title {
+    color: var(--title-and-sections-color);
+    padding-bottom: 1rem;
+}
+
+.introduction-area .warranty-text {
+    font-weight: 700;
+    color: var(--warranty-and-btn-color);
+}
+
+.introduction-area:nth-child(odd) {
+    color: var(--paragraph-color);
+}
+
+.subscription-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 1rem;
+    background-color: var(--title-and-sections-color);
+    color: #fff;
+    border-end-start-radius: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+
+.subscription-area .title {
+    font-weight: 700;
+}
+
+.subscription-area .price-area {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.subscription-area .price-area .price {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-right: 1rem;
+}
+
+.subscription-area .price-area .monthly-fees {
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.subscription-area .desc-price {
+    font-weight: 400;
+}
+
+.subscription-area .btn {
+    cursor: pointer;
+    background-color: var(--warranty-and-btn-color);
+    width: 25rem;
+    height: 4rem;
+    border-style: none;
+    color: #fff;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    transition: 0.3s;
+}
+
+.subscription-area .btn:hover {
+    background-color: rgba(194, 224, 62, 0.8);
+}
+
+.why-us-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: var(--second-section-color);
+    color: #fff;
+    padding-left: 2rem;
+    gap: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.why-us-area p {
+    font-weight: 700;
+}
+
+.why-us-area .list-of-services {
+    line-height: 2rem;
+    opacity: 0.6;
+}
